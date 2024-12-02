@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio de Pedro</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Pedro <span>Gabryel</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Página
+                        Inicial</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#sobre-mim">Sobre
+                        Mim</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a
+                        href="#habilidades">Habilidades</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a
+                        href="#projetos">Projetos</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a
+                        href="#contato">Contato</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#"">Página Inicial</a>
+                <a href="#sobre-mim">Sobre Mim</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="pagina-inicial">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="img/fotoTeste.png" alt="">
+            </div>
+            <div class="content">
+
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Olá!</h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">Eu sou <span
+                        class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Me chamo Pedro Gabryel, estudante
+                    de Ciência da Computação na Universidade Estadual do Piauí.</p>
+                <div class="content" data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+                    <h5>Resido em:</h5>
+                    <small>Piracuruca, Piauí </small>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/gabruurr" data-aos="fade-up" data-aos-duration="1500"
+                        data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i
+                            class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <button>Contate-ne</button>
+                    <button>Baixar Currículo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="sobre-mim-container">
+            <h2 id="sobre-mim">Sobre Mim</h2>
+            <p>Oii, sou Pedro Gabryel, estudante de Ciência da Computação na Universidade Estadual do Piauí. Desde algum tempo, percebi a atração que sinto pela tecnologia e computação. Tenho como objetivo futuro trabalhar com várias tecnologias e estar sempre me atualizando com as novas tendências do mercado. Além disso, desejo compartilhar meu conhecimento com outras pessoas, a fim de construir uma comunidade com cada vez mais afinidade e confortável quando se trata de programação.</p>
+        </div>
+    </section>
+    <section">
+        <div class="habilidades-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500" id="habilidades">Habilidades</h2>
+            <div class="habilidades-content">
+                <div class="habilidade" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                    <i class="fa-brands fa-java"></i>
+                    <h3>Java</h3>
+                    <p>Estudo básico da linguagem, a experiência inclui a construção de sistemas simples. </p>
+                </div>
+                <div class="habilidade" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path d="M20.205 16.392c-2.469 3.289-7.741 2.179-11.122 2.338c0 0-.599.034-1.201.133c0 0 .228-.097.519-.198c2.374-.821 3.496-.986 4.939-1.727c2.71-1.388 5.408-4.413 5.957-7.555c-1.032 3.022-4.17 5.623-7.027 6.679c-1.955.722-5.492 1.424-5.493 1.424a5.28 5.28 0 0 1-.143-.076c-2.405-1.17-2.475-6.38 1.894-8.059c1.916-.736 3.747-.332 5.818-.825c2.208-.525 4.766-2.18 5.805-4.344c1.165 3.458 2.565 8.866.054 12.21zm.042-13.28a9.212 9.212 0 0 1-1.065 1.89a9.982 9.982 0 0 0-7.167-3.031C6.492 1.971 2 6.463 2 11.985a9.983 9.983 0 0 0 3.205 7.334l.22.194a.856.856 0 1 1 .001.001l.149.132A9.96 9.96 0 0 0 12.015 22c5.278 0 9.613-4.108 9.984-9.292c.274-2.539-.476-5.763-1.752-9.596" fill="#6284ff" />
+                    </svg>
+                    <h3>Spring Boot</h3>
+                    <p>Conhecimento básico do framework Spring Boot. O estudo abrange tarefas como a criação de APIs RESTFul.</p>
+                </div>
+                <div class="habilidade" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>Conhecimento em JavaScript para desenvolvimento front-end e interatividade web.</p>
+                </div>
+                <div class="habilidade" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <p>Conhecimento básico de HTML5 para a construção de páginas web semânticas e otimizadas.</p>
+                </div>
+                <div class="habilidade" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <p>Experiência com estilização em CSS3 para criação de layouts responsivos.</p>
+                </div>
+                <div class="habilidade" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+                    <i class="fa-brands fa-git-alt"></i>
+                    <h3>Git</h3>
+                    <p>Uso de Git para controle de versão e organização de projetos individuais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projetos">
+        <div data-aos="fade-up" data-aos-duration="1500" class="projetos-container">
+            <h2>Meus Projetos</h2>
+            <div class="projetos-lista">
+                <div class="projeto-item">
+                    <div class="projeto-info">
+                        <h3>Área de Projetos</h3>
+                        <p>(a ser implementada)</p>
+                        <div class="links-projeto">
+                            <a href="https://github.com/gabruurr">Ver no GitHub</a>
+                            <a href="https://github.com/gabruurr">Ver Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <div data-aos="fade-up" data-aos-duration="1500" class="contato-container">
+            <h2>Entre em Contato</h2>
+            <form class="form-contato">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Insira seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Insira seu email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Número de Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="Insira seu número" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" required></textarea>
+                </div>
+                <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
